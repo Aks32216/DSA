@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: .idea/leetcode/statistics.xml
+  checksum: 01b54c5ec1b5f7ce82e12ef2f92b13560a83acdc5a397a5ed7805d4ec0850462
+- filename: .idea/leetcode/editor.xml
+  checksum: 8a6d9d5f27d479c6a897a0e38b6ac498a6a37a49a989da7d2b773aa3a3dbda82
+version: "1.0"
