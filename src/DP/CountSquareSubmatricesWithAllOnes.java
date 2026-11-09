@@ -1,5 +1,8 @@
 package DP;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class Solution {
     public int countSquares(int[][] matrix) {
         int n=matrix.length;
@@ -16,6 +19,8 @@ class Solution {
                 sum+=dp[i][j];
             }
         }
+
+        Deque<Integer> dq=new ArrayDeque<>()
         return sum;
     }
 }
