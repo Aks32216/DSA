@@ -1,5 +1,7 @@
 package RecursionAndBacktracking;
 
+import java.util.Stack;
+
 class Solution {
 
     private int result=0;
@@ -25,6 +27,8 @@ class Solution {
             }
         }
         grid[row][col]=original;
+        Stack<Integer> st=new Stack<>();
+        st.
     }
 
 
