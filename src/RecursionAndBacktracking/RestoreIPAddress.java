@@ -43,8 +43,6 @@ class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> result = new ArrayList<>();
         backtrack(s, 0, new ArrayList<>(), result);
-        Stack<String> st=new Stack<>();
-        st.
 
         return result;
     }
