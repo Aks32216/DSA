@@ -37,3 +37,27 @@ class Solution {
         return waterTrapped;
     }
 }
+
+
+class Solution {
+    public int trap(int[] height) {
+        int n=height.length-1;
+        int left=0;
+        int right=n;
+        int lmax=0;
+        int rmax=0;
+        int waterTrapped=0;
+        while(left<right){
+            if(height[left]<height[right]){
+                lmax=Math.max(lmax,height[left]);
+                waterTrapped+=lmax-height[left];
+                left++;
+            } else {
+                rmax=Math.max(rmax,height[right]);
+                waterTrapped+=rmax-height[right];
+                right--;
+            }
+        }
+        return waterTrapped;
+    }
+}
